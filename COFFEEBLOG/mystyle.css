@@ -1,0 +1,165 @@
+
+/*global*/ 
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.a-courses{
+    color: black;
+}
+
+
+
+/*utility*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.btn-read{
+    background-color: black;
+    color:white;
+}
+
+.btn-info {
+    background-color: #5C3A21; 
+    color:white;
+}
+.Headshot{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+/*header*/
+.header-index{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.header-contact{
+    background-color: black;
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.header-courses{
+    background-image: url(./img/course3.jpg);
+    background-size: cover;
+    height: 500px;
+    color: black;
+    text-align: center;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-around; /*Horizontal*/
+    align-items: center; /*Vertical*/
+}
+.barista-of-month-img {
+    max-width: 150px;
+    height: auto;
+    display: block; 
+    margin: 5px auto; 
+}
+.footer-staff{
+    background-image: url(./img/ThankYouPic.png);
+    background-size: cover;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+/*main*/
+.main-flex{
+    display: flex;
+    justify-content: center;
+}
+.blog-container{
+    width: 70%;
+    margin-right: 15%;
+}
+.course-container{
+    width: 30%;
+}
+.about-bar{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+    background-color: white;
+    margin-top: -50px;
+    padding: 20px;
+}
+.input-control{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+input,textarea{
+    width:70% ;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+label{
+    width: 20%;
+}
+
+/*courses*/
+p.inline-block-background {
+  background-color: #ffcccc; /* A light red color */
+  display: inline-block;
+  padding: 5px; /* Provides spacing inside the element */
+}
+.menu-container{
+    background-color: white;
+    display: inline-block;
+    margin-top: -50px;
+    padding: 10px;
+}
+.menu-items {
+    display: flex;
+    justify-content: center; /* centers the items horizontally */
+    align-items: flex-start;  /* aligns the tops of the items */
+    gap: 20px;                /* space between each drink */
+    flex-wrap: wrap;          /* allows wrapping on small screens */
+    margin-top: 20px;
+}
+
+.menu-container {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

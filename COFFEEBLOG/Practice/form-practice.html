@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .form-container{
+            background-color: lightblue;
+            padding: 20px;
+        }
+        .input-container{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+        input:invalid{
+            background-color: ivory;
+            border: none;
+            outline: 2px solid red;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label>Name:</label>
+                <input type="text" name="user_name" required> 
+            <div>
+                <label>Age:</label>
+                <input type="number" name="use_age" required> 
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="user_pass" required> 
+            </div>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
